@@ -19,7 +19,8 @@
   }
 
 
-  ?> <!DOCTYPE html>
+  ?> 
+  <!DOCTYPE html>
   <html lang="pt-br">
 
   <head>
@@ -64,7 +65,7 @@
                   <div class="card-back">
                     <div class="center-wrap">
                       <div class="section text-center">
-                        <form action="./home.php" method="POST">
+                        <form action="./index.php" method="POST">
                           <h4 class="mb-3 pb-3">Cadastre-se no churras</h4>
                           <div class="form-group">
                             <input type="text" class="form-style" placeholder="Nome" name="name" required>

@@ -13,14 +13,14 @@
         if (mysqli_num_rows($result) < 1) {
             unset($_SESSION['email']);
             unset($_SESSION['pass']);
-            header('Location: home.php');
+            header('Location: index.php');
         } else {
             $_SESSION['email'] = $email;
             $_SESSION['pass'] = $pass;
             header('Location: sessao.php');
         }
     } else {
-        header('Location: home.php');
+        header('Location: index.php');
     }
 
     ?>

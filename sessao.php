@@ -62,7 +62,7 @@ $result = $conexao->query($sql);
                     echo "<td>" . $user_data['quantidade'] . "</td>";
                     echo "<td>
                             <a href='edit.php?id=$user_data[id]'><i class='uil uil-edit-alt'></i></a>
-                            <a href='edit.php?id=$user_data[id]'><i class='1uil uil-x'></i></a>
+                            <a href='delete.php?id=$user_data[id]'><i class='1uil uil-x'></i></a>
                         </td>";
                     echo "</tr>";
                 }
