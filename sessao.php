@@ -4,7 +4,7 @@ include_once('config.php');
 if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['pass']) == true)) {
     unset($_SESSION['email']);
     unset($_SESSION['pass']);
-    header('Location: home.php');
+    header('Location: index.php');
 }
 $logado = $_SESSION['email'];
 
